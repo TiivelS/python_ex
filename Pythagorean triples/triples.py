@@ -7,7 +7,7 @@ Parameters:
 limit (int): The upper limit for the values of a, b, and c.
 
 Returns:
-list of tuple: A list of tuples, each containing a Pythagorean triple (a, b, c).
+list of tuple of int: A list of tuples, each containing a Pythagorean triple (a, b, c).
 
 Ensure that a < b < c.
 
