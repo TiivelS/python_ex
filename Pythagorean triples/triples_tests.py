@@ -1,5 +1,5 @@
 import unittest
-from triples_solution import find_pythagorean_triples
+from triples import find_pythagorean_triples
 import time
 
 class TestFindPythagoreantriples(unittest.TestCase):
