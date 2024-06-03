@@ -1,0 +1,18 @@
+Pascali kolmnurk (Pascal's triangle) on kolmnurkne massiiv arvudest. Iga arv on tema kahe ülemise arvu summa.
+
+https://en.wikipedia.org/wiki/Pascal%27s_triangle
+
+Ülesande eesmärk on esimesed n Pascali kolmnurga rida.
+
+Parameetrid:
+n (int): Ridade arv.
+
+Funktsioon peab tagastama järjendi järjenditest, kus sisemistes järjendites on toodud Pascali kolmnurga read õiges järjekorras.
+
+Näide:
+Kui n == 3, siis oodatav vastus on:
+[
+    [1], 
+    [1, 1], 
+    [1, 2, 1]
+].

@@ -1,0 +1,17 @@
+Pythagorase kolmik (Pythagorean triple) on täisarvude kolmik a, b, c, mille puhul kehtib omadus a^2 + b^2 = c^2.
+
+https://en.wikipedia.org/wiki/Pythagorean_triple
+
+Ülesande eesmärk on leida kõik sobivad Pythagorase kolmikud, mille puhul kehtib omadus a^2 + b^2 = c^2 ja kõik arvud jäävad alla ette antud limiidi või on limiidiga võrdsed.
+
+Parameetrid:
+limit (int): Limiit arvudel a, b ja c, mille alla peavad nende väärtused jääma või olema võrdsed.
+
+Funktsioon peab tagastama järjendi ennikutest, mis kõik sisaldavad ühte sobivat Pythagorase kolmikut (a, b, c).
+
+Nõuded:
+a < b < c
+Ennikud on sorteeritud kasvavalt esimese elemendi järgi, kui esimesed elemendid on võrdsed siis teise elemendi järgi ja kui teised elemendid on võrdsed siis kolmanda elemendi järgi.
+
+Näide:
+Kui limit == 10, siis oodatav vastus on [(3, 4, 5), (6, 8, 10)]. Ennikud on sorteeritud korrektselt, iga enniku puhul kehtivad omadused a < b < c, a^2 + b^2 = c^2 ja kõik liikmed jäävad alla limiidi või on limiidiga võrdsed.
