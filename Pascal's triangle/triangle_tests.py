@@ -1,5 +1,5 @@
 import unittest
-from triangle_solution import generate_pascals_triangle
+from triangle import generate_pascals_triangle
 import time
 
 class TestGeneratePascalsTriangle(unittest.TestCase):
