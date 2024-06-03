@@ -2,7 +2,7 @@ Pascali kolmnurk (Pascal's triangle) on kolmnurkne massiiv arvudest. Iga arv on 
 
 https://en.wikipedia.org/wiki/Pascal%27s_triangle
 
-Ülesande eesmärk on esimesed n Pascali kolmnurga rida.
+Ülesande eesmärk on leida esimesed n Pascali kolmnurga rida.
 
 Parameetrid:
 n (int): Ridade arv.
